@@ -19,5 +19,18 @@ public class _2ConditionalOperators {
 		}else {
 			System.out.println("not a leap year");
 		}
+		
+		//another problem
+		//given a char value we need to find it is it uppercase or lowercase or numric
+		char ch= '1';
+		if(ch >= 'a' && ch <='z') {
+			System.out.println("lowercase");
+		}else if(ch >= 'A' && ch <= 'Z') {
+			System.out.println("uppercase");
+		}else if(ch >= '0' && ch <= '9') {
+			System.out.println("numeric value");
+		}else {
+			System.out.println("no output found");
+		}
 	}
 }
