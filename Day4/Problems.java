@@ -13,7 +13,20 @@ public class Problems {
 		System.out.println(decimalToBinary(10));
 		System.out.println(squareRoot(36));
 		System.out.println(power(5,4));
+		int[] arr = {3,7,11};
+		update(arr);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
 	}
+	
+	public static void update(int[] arr) {
+		arr[1] = 100;
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+	
 	public static void fibb(int n) {
 		int a = 0;
 		int b = 1;
